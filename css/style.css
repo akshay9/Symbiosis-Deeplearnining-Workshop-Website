@@ -1710,47 +1710,20 @@ input:-moz-placeholder {
     19. Footer CSS
 *****-----*****-----*****-----*****/
 .footer-area {
-    padding: 4px 0 0;
-    background: #ffffff;
-    background-image: url(../images/bg/footer.png); 
+    background: #000000; 
     background-size: cover;
+    color: #ffffff;
     background-position: center;
-}
-.footer-area.over-layer-white:before {
-    background: rgba(255,255,255,0.85);
-}
-.footer-area .form-control {
-    color: #333333;
-    height: 50px;
-    background: rgba(255,255,255,0.4);
-}
-.footer-area .btn {
-    height: 50px;
-    padding: 12px 25px;
-}
-.footer-col ul {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-.footer-col ul li {
-    display: inline-block;
-    margin: 0 10px;
-    text-align: center;
-}
-.footer-col ul li a img {
-    width: 50px;
-    margin: 0 auto;
 }
 .copyright {
     text-align: center;
+    padding-top: 10px;
     padding-bottom: 20px;
     position: relative;
 }
 .copyright p a {
     color: #AF251C;
 }
-
 
 
 /*****-----*****-----*****-----*****
