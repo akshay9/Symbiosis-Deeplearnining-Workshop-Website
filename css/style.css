@@ -734,7 +734,7 @@ input:-moz-placeholder {
     07. Organizer CSS
 *****-----*****-----*****-----*****/
 .organizer-area {
-    padding: 150px 0;
+    padding: 90px 0;
 }
 .organizer-area.over-layer-black:before {
     background: rgba(0,0,0,0.6);
@@ -742,21 +742,29 @@ input:-moz-placeholder {
 .organizer-col {
     text-align: center;
 }
-.organizer-col h2 {
+.organizer-col h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 44px;
     color: #f3f3f3;
     font-weight: normal;
     letter-spacing: 2px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
 }
-.organizer-col h1 {
+.organizer-col h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 70px;
+    font-size: 32px;
     color: #AF251C;
     font-weight: normal;
     letter-spacing: 2px;
-    margin-bottom: 35px;
+    margin-bottom: 26px;
+}
+
+.organizer-col p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
 }
 .organizer-col ul li {
     display: inline-block;
