@@ -357,7 +357,7 @@ input:-moz-placeholder {
     width: 100%;
 }
 .main-header .navbar-brand {
-    width: 200px;
+    width: 282px;
 }
 .main-header .navbar-brand .logo-white {
     display: block;
@@ -1230,7 +1230,7 @@ input:-moz-placeholder {
 }
 .box .title{
     font-size: 24px;
-    color: #AF251C;
+    color: #ffffff;
     text-transform: capitalize;
     margin: 0 0 20px 0;
 }
@@ -1241,6 +1241,14 @@ input:-moz-placeholder {
     color: #fff;
     margin: 0 0 20px 0;
 }
+
+.box .modal-btn {
+    cursor: pointer;
+    color: #ffffff;
+    background: #AF251C;
+    font-size: 12px;
+}
+
 .box .icon{
     padding: 0;
     margin: 0;
@@ -1969,3 +1977,27 @@ input:-moz-placeholder {
     font-size: 36px;
     line-height: 1.5;
 }
+
+/* ------ Accomodation Modal CSS  **********/
+
+table {
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 0;
+    line-height: 16px;
+}
+
+th{
+    background-color: #AF251C;
+    color: #ffffff;
+}
+
+.modal-title {
+    color: #AF251C;
+}
+
+.modal p {
+    font-size: 11px;
+}
+
+/***********-----------------***************/
