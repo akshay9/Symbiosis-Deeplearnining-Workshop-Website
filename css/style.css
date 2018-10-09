@@ -725,6 +725,7 @@ input:-moz-placeholder {
     
 }
 .our-speaker{
+    cursor: pointer;
     overflow: hidden;
     position: relative;
 }
