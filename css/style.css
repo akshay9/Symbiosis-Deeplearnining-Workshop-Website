@@ -779,6 +779,11 @@ input:-moz-placeholder {
     color: #fff;
     margin: 0 5px;
 }
+.our-speaker .social p {
+    color: #AF251C;
+    text-align: right;
+    padding-right: 6px;
+}
 .our-speaker .team-content{
     width: 100%;
     padding: 20px 25px;
@@ -839,6 +844,7 @@ input:-moz-placeholder {
     left: 10px;
     top: -5px;
 }
+
 
 
 /*****-----*****-----*****-----*****
