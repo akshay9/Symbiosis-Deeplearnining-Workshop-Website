@@ -269,21 +269,6 @@ input:-moz-placeholder {
 }
 
 
-/* Preloader CSS */
-#preloader { 
-    position: fixed; 
-    left: 0; 
-    top: 0; 
-    z-index: 99999999; 
-    width: 100%; 
-    height: 100%; 
-    overflow: visible; 
-    background: #ffffff url('../images/preloader.gif') no-repeat center center; 
-}
-
-
-
-
 /* Scroll To Top CSS Start */
 #dyscrollup-btn {
     z-index: 999999;
@@ -356,8 +341,8 @@ input:-moz-placeholder {
     color: #f2f2f2;
     text-transform: capitalize;
     padding: 20px 0;
-    margin-left: 25px;
-    letter-spacing: 0.5px; 
+    margin-left: 12px;
+    letter-spacing: 0.3px; 
 }
 .main-header .navbar-light .navbar-nav .active>.nav-link, 
 .main-header .navbar-light .navbar-nav .nav-link.active, 
