@@ -190,7 +190,7 @@
             quantitative analysis work. <br/>\
             At AlgoAnalytics the work is focused in data science with application areas \
             like financial trading, BFSI, IoT, Healthcare, Retail and Legal. <br/><br/>\
-            <b>Workshop Session Topic: NLP</b>"
+            <b>Workshop Session Topic: Natural Language Processing</b>"
         },
         "vishal": {
             name: "Vishal Gokhale",
@@ -229,6 +229,14 @@
             she demonstrates how discriminative localization is important to gain deeper \
             insights into the pathology of the tumor. <br/><br/>\
             <b>Session Topic: Case Study : CNN for Medical Imaging </b>"
+        },
+        "nitin": {
+            name: "Madhura Ingalhalikar",
+            photo: "images/speaker/9.png",
+            description: "Nitin is a Chief Architect at GE Helathcare and is a avid technology \
+            enthusiast. HIs intesrest lies in developing novel solutions in medical imaging and \
+            other healthcare domains.. <br/><br/>\
+            <b>Session Topic: Expert Session I</b>"
         },
     };
 
