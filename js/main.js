@@ -282,6 +282,35 @@
         perturbance: 0.04
     });
 
+    function formAlert(type, shortMessage, longMessage) {
+        var alert = ('<div class="alert alert-'+ type +' alert-dismissible fade show" role="alert"> \
+                <strong>'+ shortMessage +'</strong> '+ longMessage +' \
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"> \
+                    <span aria-hidden="true">&times;</span> \
+                </button> \
+            </div >');
+        return alert;
+    }
+
+    $('#ajax-contact').submit(function (evt) {
+        evt.preventDefault();
+
+        var url = "http://www.kamalaprintingpress.com/contact-form.php";
+        var data = $('form').serialize();
+        $.post(url, data)
+            .done(function (data) {
+                $('#form-messages').html(
+                    formAlert('success', "Success!", "We will contact you shortly.")
+                    );
+                $(this)[0].reset();
+            }).fail(function () {
+                $('#form-messages').html(
+                    formAlert('danger', "Error!", "Something went wrong.")
+                    );
+            });
+        return false;
+    });
+
     //Scroll-Up
     dyscrollup.init({
         showafter : 500,
@@ -292,12 +321,8 @@
         height : "20"
     });
 
-
+    $(function () {
+        $("#other-models").load("modal.html");
+    });
 
 })(window.jQuery);
-
-
-/* To load footer on pages */ 
-$(function(){
-  $("#other-models").load("modal.html"); 
-});
