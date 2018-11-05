@@ -295,3 +295,9 @@
 
 
 })(window.jQuery);
+
+
+/* To load footer on pages */ 
+$(function(){
+  $("#other-models").load("modal.html"); 
+});
