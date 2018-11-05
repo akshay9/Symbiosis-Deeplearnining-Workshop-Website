@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="Symbiosis Deeplearning Workshop">
-    <meta name="description" content="Symbiosis Deep Learning Workshop, Organised By Symbiosis Institute of Technolog,Pune">
+    <meta name="description" content="Symbiosis Deep Learning Workshop, symbiosisdlworkshop, symbiosis dl workshop , symbiosis workshop , workshop by symbiosis, sit pune workshop , Organised By Symbiosis Institute of Technolog,Pune">
 
 
     <title>SYMBIOSIS DEEPLEARNING WORKSHOP</title>
@@ -337,6 +337,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyuKW2ZPpiCpItuhpHS4m__z4e8c8zW6QkhushG4bRdtNEoA/viewform" class="btn btn-default btn-style btn-color" target="_blank"<button type="submit">Register here</button></a>
+                                <button type="button" data-toggle="modal" data-target="#payment-details" class="btn btn-payment btn-default btn-style btn-color">Payment Details</button>
                             </div>
                         </div>
                     </div>
@@ -502,7 +503,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="schedule-box">
-                                            <img src="images/schedule/3.jpg" alt="">
+                                            <img src="images/schedule/.jpg" alt="">
                                             <h4>10:45 AM - 11:15 AM</h4>
                                             <h3></h3>
                                             <p>By IBM Watson, Speaker</p>
@@ -741,7 +742,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="col-default text-center">
                         <div id="form-messages"></div>
-                        <form id="ajax-contact" method="post" action="http://139.59.43.76/contact-form.php">
+                        <form id="ajax-contact" method="post">
                             <div class="form-row">
                                 <div class="col-md-6">
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
@@ -759,7 +760,7 @@
                                     <textarea class="form-control textarea-hight-full" id="message" name="message" rows="3" placeholder="Message" required></textarea>
                                 </div>
                                 <div class="col-md-12 center991">
-                                    <button class="btn btn-default btn-style btn-color" type="submit" name="submit">Send Message</button>
+                                    <button class="btn btn-default btn-style btn-color" id="submit" type="submit" value="Submit"name="submit">Send Message</button>
                                 </div>
                             </div>
                         </form>
@@ -980,7 +981,67 @@
                 </div>
             </div>
         </div>                    
-    </div>       
+    </div>     
+    <div class="modal" id="payment-details">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Payment Details for the Workshop</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th>Category</th>
+                                        <th>Fees</th>
+                                       </tr>
+                                      <tr>
+                                        <td>Industry</td>
+                                        <td>8000+18% GST = 9600/-</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Academics</td>
+                                        <td>6000+ 18% GST = 7080/-</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Students</td>
+                                        <td>5000+18% GST = 5900/- </td>
+                                      </tr>
+                                    </thead>                                
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <p>Please make the payment by NEFT on the below account: </p>
+                            <p>Bank Account Name - SIT Receipt Account Symbiosis Institute of Technology</p>
+
+                            <p>Bank Account No - 050310210000030</p>
+                            <p>Bank Name - Bank of India</p>
+                            <p>Branch Name - Karve Road</p>
+                            <p>Bank Address - 65/1/B, ERANDVANA, KARVE ROAD, PUNE- 411004, MAHARASHTRA</p>
+                            <p>Type of Bank Account - Saving</p>
+                            <p>IFSC code of bank - BKID0000503</p>
+                            <p>MICR Code – 411013011</p>
+                            <p>Bank Code – 013</p>
+                            <p>Branch Code - 0503</p>
+                        </div>
+                    </div>   
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Note: On successful payment, please send the email to 
+                            <a href="mailto:sitdlworkshop@sitpune.edu.in">sitdlworkshop@sitpune.edu.in</a> specifying your payment reference number. On receipt of the email, we will send you the registration confirmation. Please note that without the email, it will not be possible to confirm the registration</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>                    
+    </div>   
 
 
     <!-- modernizr -->

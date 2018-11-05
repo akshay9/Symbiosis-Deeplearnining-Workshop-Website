@@ -305,13 +305,14 @@
 	.footer-col ul li {
 	    margin: 0 2px;
 	}
-
+	
 
 }
 
 
 @media only screen and (max-width:320px) {
-	
+	.ticket-area .btn-payment {
+		margin-top: 12px;
 }
 
 
