@@ -323,4 +323,9 @@
 	.modal-lg{
 		max-width: 1124px;
 	}
+
+}
+
+.modal {
+	top : 72px;
 }
