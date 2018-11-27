@@ -231,7 +231,7 @@
             <b>Session Topic: Case Study : CNN for Medical Imaging </b>"
         },
         "nitin": {
-            name: ">Mr. Nitin M",
+            name: "Mr. Nitin M",
             photo: "images/speaker/9.png",
             description: "Nitin is a Chief Architect at GE Helathcare and is a avid technology \
             enthusiast. HIs intesrest lies in developing novel solutions in medical imaging and \
