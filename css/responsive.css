@@ -273,6 +273,11 @@
 	.main-header .navbar-brand {
 	    width: 150px;
 	}
+
+	.card-container { 
+	  margin-top: 0px;
+  	  margin-left: 0px;
+  	}
 	.our-speaker:hover .social {
 	    top: 60%;
 	}
@@ -292,6 +297,11 @@
 	.hero-col h4 {
 		font-size: 16px;
 	}
+	.card-container { 
+	  margin-top: 0px;
+  	  margin-left: 0px;
+  	}
+
 	.organizer-col h1 {
 	    font-size: 24px;
 	    margin-bottom: 20px;
@@ -314,6 +324,10 @@
 	.ticket-area .btn-payment {
 		margin-top: 12px;
 }
+	.card-container { 
+	  margin-top: 0px;
+  	  margin-left: 0px;
+  	}
 
 
 @media only screen and (min-width: 992px) {

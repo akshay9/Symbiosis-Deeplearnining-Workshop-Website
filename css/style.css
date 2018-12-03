@@ -3,7 +3,45 @@
 /*****-----*****-----*****-----*****
     01. Imported CSS
 *****-----*****-----*****-----*****/
-
+.card-container {
+  cursor: pointer;
+  height: 184px;
+  perspective: 600;
+  position: relative;
+  width: 364px;
+  font-size: 14px;
+  margin-top: -54px;
+  margin-left: -34px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+.card .back {
+  padding-top: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background: #eaeaed;
+  color: #0087cc;
+  text-align: center;
+  line-height: 20px;
+  transform: rotateY(180deg);
+}
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,600i,700,700i');
