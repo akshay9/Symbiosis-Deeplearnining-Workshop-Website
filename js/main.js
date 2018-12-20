@@ -235,8 +235,24 @@
             photo: "images/speaker/9.png",
             description: "Nitin is a Chief Architect at GE Helathcare and is a avid technology \
             enthusiast. HIs intesrest lies in developing novel solutions in medical imaging and \
-            other healthcare domains.. <br/><br/>\
+            other healthcare domains. <br/><br/>\
             <b>Session Topic: Expert Session I</b>"
+        },
+        "bilwaj": {
+            name: "Bilwaj Gaonkar",
+            photo: "images/speaker/10.jpg",
+            description: "Bilwaj Gaonkar, PhD works at the Department of Neurosurgery at the \
+            University of California Los Angeles. His research interests lie in machine learning, \
+            advanced image processing, computer graphics and virtual reality. He specializes \
+            applying cutting edge computational techniques to problems of clinical interest. \
+            He obtained his degree from the University of Pennsylvania, Department of Bioengineering. \
+            His PhD work focused on the development of machine learning algorithms for neuroimaging \
+            driven diagnosis of psychiatric disorders and  image based cancer quantification. \
+            Currently he works with Luke Macyszyn, MD an attending neurosurgeon at the David Geffen \
+            School of Medicine and focuses on how deep learning based advanced image analysis \
+            techniques can be utilized to improve standard of care for patients with various spine \
+            related disorders. <br/><br/>\
+            <b>Session Topic: Development of Imaging based biomarkers for spinal disorders</b>"
         },
     };
 
