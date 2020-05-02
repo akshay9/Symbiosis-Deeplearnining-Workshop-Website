@@ -41,5 +41,4 @@ repository for your learners to practice in.
 # Authors
   
   * [Avinash Barfa](https://github.com/avinashbarfa)
-  * [Akshay Naik](https://github.com/akshay9)
   
